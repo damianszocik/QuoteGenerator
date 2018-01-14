@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Damian Szocik">   
+    <title>Random Quote Machine</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="center">
+        <span id="author">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <p></p>
+        </span>
+        <div id="loader">
+            <img src="loader1.png" alt="">
+        </div>
+        <!-- <i class='fa fa-quote-left' id='quote-sign' aria-hidden='true'></i>&nbsp -->
+        <h2 id="quoteOutput"></h2>
+        <p id="author"></p>
+        <div id="buttons">
+            <span id="share-span">
+                <a class="twitter-share-button" target="_blank">
+                    <i class="fa fa-twitter share-btn" aria-hidden="true"></i>
+                </a>
+                <a class="tumblr-share-button" target="_blank">
+                    <i class="fa fa-tumblr share-btn" aria-hidden="true"></i>
+                </a>
+            </span>
+            <button id="generuj" name="generuj">GET QUOTE!</button>
+        </div>
+    </div>
+
+
+    <script src="quoteMachine.js"></script>
+    <!-- <script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script> -->
+
+</body>
+
+</html>
