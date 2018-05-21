@@ -25,7 +25,7 @@ var randomColor = {
 function getQuote() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "https://andruxnet-random-famous-quotes.p.mashape.com/", true);
-    xhr.setRequestHeader("X-Mashape-Key", "BcnlKwiLL2msh2jtLKQlmn0S9o4Ep1ALUUrjsnWTTLEhhaAgyB");
+    xhr.setRequestHeader("X-Mashape-Key", "OCzWAMP4lGmshWzdIWPBBObEUNzBp1pmbFwjsngHDsrStXGJ3w");
     xhr.setRequestHeader("Accept", "application/json");
     xhr.send();
     xhr.onreadystatechange = function () {
