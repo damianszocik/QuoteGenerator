@@ -30,7 +30,7 @@ function getQuote() {
     xhr.send();
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            result = JSON.parse(xhr.response);
+            result = JSON.parse(xhr.response)[0];
             let quoteOutput = document.querySelector("#quoteOutput");
             quoteOutput.innerHTML = "<i class='fa fa-quote-left' id='quote-sign' aria-hidden='true'></i>&nbsp" + "<span style = 'display: inline'>" + result.quote + "</span>";
             author.innerHTML = result.author;
